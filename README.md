@@ -1,5 +1,5 @@
 # ImagePanZoom
-Simple pan/zoom solution for Images in HTML. It adds events listeners for mouse scroll, pan, plus it optionally offers:
+Simple pan/zoom solution for Images in HTML.It works for <b>desktop, mobile devices and hybrid application(Both and Android, IOS)</b>. It adds events listeners for mouse scroll, pan in desktop and for touch related event in mobile device:
 * JavaScript API for control of pan and zoom behavior
 
 It works cross-browser. 
