@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <script type="text/javascript" src='ImageMove.js'></script>
+    <script type="text/javascript">
+    var imgMove = new ImageMove("container", "image");
+    </script>
+</head>
+
+<body>
+    <div id='container' style='width:500px;height:500px;overflow: hidden;'>
+        <img src="img.jpg" style='position: relative;' id="image">
+    </div>
+    <div onclick = "imgMove.addPanEvents();">Add Pan Event</div>
+    <div onclick = "imgMove.removePanEvents();">remove Pan Event</div>
+</body>
+
+</html>
